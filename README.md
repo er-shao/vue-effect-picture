@@ -59,7 +59,7 @@ img.onload = async () => {
   effectPicture.showResult();
   
   // 获取结果数据
-  const resultData = canvas.toDataURL('image/png');
+  const resultData = effectPicture.getResultDataURL();
 };
 ```
 
